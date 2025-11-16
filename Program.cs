@@ -29,3 +29,34 @@
 // }
 
 
+//4
+// int max =int.MinValue;
+// for(int i=1; i<=5 ; i++)
+// {
+//     Console.WriteLine("Enter a Number ? ("+i+")");
+//     int num = int.Parse(Console.ReadLine());
+
+//     if (num>max)
+//     {
+//         max =num;
+//     }
+//     Console.WriteLine("Max is Number is "+max);
+// }
+
+
+//5
+
+int Factorialo (int n)
+{
+    int result=1;
+    for(int i=1; i <= n; i++)
+    
+        result *=i;
+        return result;
+    
+}
+
+Console.Write("Enter a Number?");
+int n = int.Parse(Console.ReadLine());
+int f = Factorialo(n);
+Console.WriteLine(f);
